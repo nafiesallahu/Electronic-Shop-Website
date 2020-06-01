@@ -1,0 +1,191 @@
+body {
+    /* margin: 0;
+    padding: 0;
+    background: #fafafa; */
+    font-family: 'Poppins', sans-serif;
+}
+/* 
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+} */
+/* 
+.wrapper {
+    width: 400px;
+    margin: 200px;
+} */
+
+#site-header {
+    padding: 5px 20px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+ul.social-icons {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+ul.social-icons li {
+    display: inline-block;
+}
+
+ul.social-icons li a {
+    font-size: 30px;
+    padding: 5px;
+    color: #d6d6d6;
+    transition: color .2s ease-in;
+}
+
+ul.social-icons li a:hover {
+    color: #999;
+}
+
+.section-title {
+    font-family: sans-serif;
+    color: skyblue;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+#masthead {
+    background: white;
+    border: 2px solid rgb(210, 220, 228);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#masthead .featured-article {
+    background: url(../imgs/devices.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#masthead .featured-article-title {
+    background-color: rgba(0, 0, 0, .8);
+    padding: 25px 40px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#masthead h1 {
+    font-weight: bold;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+#masthead h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+#masthead .highlight-red {
+    font-weight: 300;
+    color: red;
+}
+
+#masthead .featured-article img {
+    visibility: hidden;
+}
+
+.articles {
+    border: 1px solid rgb(210, 220, 228);
+    border-radius: 15px;
+}
+
+#content .upper-block {
+    background: white;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#content .lower-block {
+    background-color: rgba(248, 249, 250, .5);
+    padding: 20px;
+}
+
+.subheading {
+    color: rgb(162, 177, 182);
+    text-transform: uppercase;
+}
+.latest-themes{
+    list-style: none;
+}
+
+#content .inner {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#content nav {
+    padding: 25px 20px;
+}
+
+#content nav a {
+    margin-right: 20px;
+    color: #aaa;
+    text-decoration: none;
+}
+
+#content nav a:hover {
+    color: #666;
+}
+
+#content nav a:last-child {
+    margin-right: 0;
+}
+
+#content nav a.is-active {
+    color: #F00;
+}
+
+#content .post {
+    margin-bottom: 40px;
+}
+
+.sidebar {
+    background: white;
+    border: 1px solid rgb(210, 220, 228);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.sidebar form {
+    padding: 17px 20px;
+    position: relative;
+}
+
+.sidebar form input,
+.sidebar form button {
+    border: 0;
+    padding: 0;
+}
+
+.sidebar form input.search {
+    width: 100%;
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    padding: 8px 20px;
+    outline: 0;
+}
+
+.sidebar form button {
+    position: absolute;
+    right: 35px;
+    top: 22px;
+    background: none;
+    font-size: 20px;
+}
+
+#about-table {
+    border: 2px solid red;
+}
+
+#about-table tr td {
+    padding: .5rem 1rem;
+}
